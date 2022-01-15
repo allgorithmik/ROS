@@ -1,0 +1,5 @@
+  File "/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my_python_pkg/my_first_python_node.py", line 15
+    self.get_logger().info("Hello" str(self.counter_))
+                                   ^
+SyntaxError: invalid syntax
+

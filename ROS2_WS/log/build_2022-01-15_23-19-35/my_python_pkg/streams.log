@@ -1,0 +1,29 @@
+[2.285s] Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/src/my_python_pkg': PYTHONPATH=/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg/build install --prefix /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg --record /mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg/install.log --single-version-externally-managed
+[3.057s] running egg_info
+[3.063s] writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO
+[3.070s] writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt
+[3.075s] writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt
+[3.079s] writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt
+[3.083s] writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt
+[3.171s] reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[3.221s] writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[3.224s] running build
+[3.226s] running build_py
+[3.241s] copying my_python_pkg/my_first_python_node.py -> /mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg/build/lib/my_python_pkg
+[3.267s] running install
+[3.274s] running install_lib
+[3.304s] copying /mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg/build/lib/my_python_pkg/my_first_python_node.py -> /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my_python_pkg
+[3.351s] byte-compiling /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my_python_pkg/my_first_python_node.py to my_first_python_node.cpython-38.pyc
+[3.364s]   File "/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my_python_pkg/my_first_python_node.py", line 15
+[3.365s]     self.get_logger().info("Hello" str(self.counter_))
+[3.367s]                                    ^
+[3.368s] SyntaxError: invalid syntax
+[3.369s] 
+[3.376s] running install_data
+[3.392s] running install_egg_info
+[3.402s] removing '/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my_python_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[3.443s] Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my_python_pkg-0.0.0-py3.8.egg-info
+[3.627s] running install_scripts
+[3.685s] Installing python_node script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[3.697s] writing list of installed files to '/mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg/install.log'
+[3.717s] Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/src/my_python_pkg' returned '0': PYTHONPATH=/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg/build install --prefix /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg --record /mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg/install.log --single-version-externally-managed
