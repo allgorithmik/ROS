@@ -1,0 +1,4 @@
+Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package -- -j12 -l12
+Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package -- -j12 -l12
+Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package
+Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package

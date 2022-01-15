@@ -179,3 +179,16 @@ This may be promoted to an error in a future release of colcon-core.
 [15.332s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
 [15.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
 [15.333s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[147.880s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally with the following error: Autolaunch error: X11 initialization failed.
+
+[147.882s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[147.886s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/Programming/ROS2/ROS2_WS/install/local_setup.ps1'
+[147.914s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/d/Programming/ROS2/ROS2_WS/install/_local_setup_util_ps1.py'
+[147.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/Programming/ROS2/ROS2_WS/install/setup.ps1'
+[147.938s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/Programming/ROS2/ROS2_WS/install/local_setup.sh'
+[147.942s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/d/Programming/ROS2/ROS2_WS/install/_local_setup_util_sh.py'
+[147.946s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/Programming/ROS2/ROS2_WS/install/setup.sh'
+[147.951s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/Programming/ROS2/ROS2_WS/install/local_setup.bash'
+[147.955s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/Programming/ROS2/ROS2_WS/install/setup.bash'
+[147.960s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/Programming/ROS2/ROS2_WS/install/local_setup.zsh'
+[147.965s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/Programming/ROS2/ROS2_WS/install/setup.zsh'
