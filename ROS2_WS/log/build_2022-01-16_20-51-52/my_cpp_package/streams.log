@@ -1,0 +1,37 @@
+[0.182s] Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package -- -j12 -l12
+[0.415s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.444s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.708s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.026s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.034s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.479s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.572s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.583s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.114s] -- Configuring done
+[7.385s] -- Generating done
+[7.461s] -- Build files have been written to: /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package
+[7.551s] [35m[1mScanning dependencies of target cpp_node[0m
+[8.562s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_cpp_node.cpp.o[0m
+[10.211s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[10.832s] [100%] Built target cpp_node
+[10.866s] Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package -- -j12 -l12
+[10.938s] Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package
+[10.954s] -- Install configuration: ""
+[10.983s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/lib/my_cpp_package/cpp_node
+[11.087s] -- Set runtime path of "/mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/lib/my_cpp_package/cpp_node" to ""
+[11.119s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/ament_index/resource_index/package_run_dependencies/my_cpp_package
+[11.151s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/ament_index/resource_index/parent_prefix_path/my_cpp_package
+[11.166s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.sh
+[11.192s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.dsv
+[11.257s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/environment/path.sh
+[11.280s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/environment/path.dsv
+[11.357s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/local_setup.bash
+[11.381s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/local_setup.sh
+[11.399s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/local_setup.zsh
+[11.416s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/local_setup.dsv
+[11.483s] -- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/package.dsv
+[11.560s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/ament_index/resource_index/packages/my_cpp_package
+[11.585s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig.cmake
+[11.602s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig-version.cmake
+[11.626s] -- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/package.xml
+[11.639s] Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package

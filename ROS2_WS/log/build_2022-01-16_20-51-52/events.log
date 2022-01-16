@@ -1,0 +1,168 @@
+[0.000000] (-) TimerEvent: {}
+[0.002857] (-) JobUnselected: {'identifier': 'my_python_pkg'}
+[0.003575] (my_cpp_package) JobQueued: {'identifier': 'my_cpp_package', 'dependencies': OrderedDict()}
+[0.004345] (my_cpp_package) JobStarted: {'identifier': 'my_cpp_package'}
+[0.075762] (my_cpp_package) JobProgress: {'identifier': 'my_cpp_package', 'progress': 'cmake'}
+[0.094245] (-) TimerEvent: {}
+[0.138702] (my_cpp_package) JobProgress: {'identifier': 'my_cpp_package', 'progress': 'build'}
+[0.156533] (my_cpp_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package', '--', '-j12', '-l12'], 'cwd': '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vishwas'), ('HOST_IP', '172.29.144.1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/vishwas'), ('OLDPWD', '/mnt/d/Programming/ROS2/ROS2_WS/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vishwas'), ('NAME', 'Vishwas'), ('WSL_INTEROP', '/run/WSL/1105_interop'), ('PULSE_SERVER', 'tcp:172.29.144.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vishwas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/d/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/bin:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Program Files/CMake/bin:/mnt/d/Program Files (x86)/GitExtensions/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Anaconda3/envs/OpenCV:/mnt/d/Anaconda3/envs/OpenCV/Lib/site-packages:/mnt/d/Anaconda3/envs/OpenCV/Library/bin:/mnt/d/Program Files/Polyspace/R2021a/runtime/win64:/mnt/d/Program Files/Polyspace/R2021a/bin:/mnt/d/Program Files/Polyspace/R2021a/polyspace/bin:/mnt/e/OpenCV/Build/install/x64/vc16/bin:/mnt/e/OpenCV/Build/install:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.1/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/Git/cmd:/mnt/c/Users/vvish/.cargo/bin:/mnt/c/Users/vvish/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/vvish/.dotnet/tools:/snap/bin'), ('WT_SESSION', '35c60ad4-b7c1-488c-838a-171195f7b05a'), ('DISPLAY', '172.22.32.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.194596] (-) TimerEvent: {}
+[0.296244] (-) TimerEvent: {}
+[0.397601] (-) TimerEvent: {}
+[0.418676] (my_cpp_package) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.448472] (my_cpp_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.497785] (-) TimerEvent: {}
+[0.598960] (-) TimerEvent: {}
+[0.699773] (-) TimerEvent: {}
+[0.712411] (my_cpp_package) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.800038] (-) TimerEvent: {}
+[0.901174] (-) TimerEvent: {}
+[1.002674] (-) TimerEvent: {}
+[1.029889] (my_cpp_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.038059] (my_cpp_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.102781] (-) TimerEvent: {}
+[1.203435] (-) TimerEvent: {}
+[1.304257] (-) TimerEvent: {}
+[1.404985] (-) TimerEvent: {}
+[1.505852] (-) TimerEvent: {}
+[1.606870] (-) TimerEvent: {}
+[1.707497] (-) TimerEvent: {}
+[1.808201] (-) TimerEvent: {}
+[1.908847] (-) TimerEvent: {}
+[2.009695] (-) TimerEvent: {}
+[2.110681] (-) TimerEvent: {}
+[2.212489] (-) TimerEvent: {}
+[2.314012] (-) TimerEvent: {}
+[2.414814] (-) TimerEvent: {}
+[2.515503] (-) TimerEvent: {}
+[2.616452] (-) TimerEvent: {}
+[2.717358] (-) TimerEvent: {}
+[2.817958] (-) TimerEvent: {}
+[2.918799] (-) TimerEvent: {}
+[3.019700] (-) TimerEvent: {}
+[3.120874] (-) TimerEvent: {}
+[3.221840] (-) TimerEvent: {}
+[3.322673] (-) TimerEvent: {}
+[3.423530] (-) TimerEvent: {}
+[3.524187] (-) TimerEvent: {}
+[3.624784] (-) TimerEvent: {}
+[3.725602] (-) TimerEvent: {}
+[3.826504] (-) TimerEvent: {}
+[3.927198] (-) TimerEvent: {}
+[4.027816] (-) TimerEvent: {}
+[4.128533] (-) TimerEvent: {}
+[4.229226] (-) TimerEvent: {}
+[4.329891] (-) TimerEvent: {}
+[4.430992] (-) TimerEvent: {}
+[4.531799] (-) TimerEvent: {}
+[4.632583] (-) TimerEvent: {}
+[4.733393] (-) TimerEvent: {}
+[4.834016] (-) TimerEvent: {}
+[4.934949] (-) TimerEvent: {}
+[5.036040] (-) TimerEvent: {}
+[5.136834] (-) TimerEvent: {}
+[5.237702] (-) TimerEvent: {}
+[5.338236] (-) TimerEvent: {}
+[5.438797] (-) TimerEvent: {}
+[5.539554] (-) TimerEvent: {}
+[5.640375] (-) TimerEvent: {}
+[5.741112] (-) TimerEvent: {}
+[5.841988] (-) TimerEvent: {}
+[5.942921] (-) TimerEvent: {}
+[6.043549] (-) TimerEvent: {}
+[6.144221] (-) TimerEvent: {}
+[6.244924] (-) TimerEvent: {}
+[6.345576] (-) TimerEvent: {}
+[6.446234] (-) TimerEvent: {}
+[6.481776] (my_cpp_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.546348] (-) TimerEvent: {}
+[6.575844] (my_cpp_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[6.587645] (my_cpp_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.646527] (-) TimerEvent: {}
+[6.747346] (-) TimerEvent: {}
+[6.848540] (-) TimerEvent: {}
+[6.949215] (-) TimerEvent: {}
+[7.049888] (-) TimerEvent: {}
+[7.118261] (my_cpp_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.150023] (-) TimerEvent: {}
+[7.250638] (-) TimerEvent: {}
+[7.351345] (-) TimerEvent: {}
+[7.389389] (my_cpp_package) StdoutLine: {'line': b'-- Generating done\n'}
+[7.451516] (-) TimerEvent: {}
+[7.463819] (my_cpp_package) StdoutLine: {'line': b'-- Build files have been written to: /mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package\n'}
+[7.551692] (-) TimerEvent: {}
+[7.555383] (my_cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_node\x1b[0m\n'}
+[7.651791] (-) TimerEvent: {}
+[7.752441] (-) TimerEvent: {}
+[7.852971] (-) TimerEvent: {}
+[7.953765] (-) TimerEvent: {}
+[8.054413] (-) TimerEvent: {}
+[8.155020] (-) TimerEvent: {}
+[8.255545] (-) TimerEvent: {}
+[8.356179] (-) TimerEvent: {}
+[8.456662] (-) TimerEvent: {}
+[8.557472] (-) TimerEvent: {}
+[8.566388] (my_cpp_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_cpp_node.cpp.o\x1b[0m\n'}
+[8.657587] (-) TimerEvent: {}
+[8.758244] (-) TimerEvent: {}
+[8.858876] (-) TimerEvent: {}
+[8.959564] (-) TimerEvent: {}
+[9.060271] (-) TimerEvent: {}
+[9.161024] (-) TimerEvent: {}
+[9.261728] (-) TimerEvent: {}
+[9.362501] (-) TimerEvent: {}
+[9.463097] (-) TimerEvent: {}
+[9.563767] (-) TimerEvent: {}
+[9.664343] (-) TimerEvent: {}
+[9.764947] (-) TimerEvent: {}
+[9.865668] (-) TimerEvent: {}
+[9.966569] (-) TimerEvent: {}
+[10.067562] (-) TimerEvent: {}
+[10.168233] (-) TimerEvent: {}
+[10.215464] (my_cpp_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[10.268368] (-) TimerEvent: {}
+[10.369102] (-) TimerEvent: {}
+[10.470075] (-) TimerEvent: {}
+[10.570521] (-) TimerEvent: {}
+[10.671122] (-) TimerEvent: {}
+[10.772068] (-) TimerEvent: {}
+[10.837158] (my_cpp_package) StdoutLine: {'line': b'[100%] Built target cpp_node\n'}
+[10.870759] (my_cpp_package) CommandEnded: {'returncode': 0}
+[10.872296] (-) TimerEvent: {}
+[10.921692] (my_cpp_package) JobProgress: {'identifier': 'my_cpp_package', 'progress': 'install'}
+[10.942348] (my_cpp_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package'], 'cwd': '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vishwas'), ('HOST_IP', '172.29.144.1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/vishwas'), ('OLDPWD', '/mnt/d/Programming/ROS2/ROS2_WS/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vishwas'), ('NAME', 'Vishwas'), ('WSL_INTEROP', '/run/WSL/1105_interop'), ('PULSE_SERVER', 'tcp:172.29.144.1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vishwas/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/d/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/bin:/mnt/d/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Program Files/CMake/bin:/mnt/d/Program Files (x86)/GitExtensions/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/Anaconda3/envs/OpenCV:/mnt/d/Anaconda3/envs/OpenCV/Lib/site-packages:/mnt/d/Anaconda3/envs/OpenCV/Library/bin:/mnt/d/Program Files/Polyspace/R2021a/runtime/win64:/mnt/d/Program Files/Polyspace/R2021a/bin:/mnt/d/Program Files/Polyspace/R2021a/polyspace/bin:/mnt/e/OpenCV/Build/install/x64/vc16/bin:/mnt/e/OpenCV/Build/install:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.1/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/Git/cmd:/mnt/c/Users/vvish/.cargo/bin:/mnt/c/Users/vvish/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/vvish/.dotnet/tools:/snap/bin'), ('WT_SESSION', '35c60ad4-b7c1-488c-838a-171195f7b05a'), ('DISPLAY', '172.22.32.1:0.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/Programming/ROS2/ROS2_WS/build/my_cpp_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[10.957601] (my_cpp_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.972535] (-) TimerEvent: {}
+[10.987466] (my_cpp_package) StdoutLine: {'line': b'-- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/lib/my_cpp_package/cpp_node\n'}
+[11.072705] (-) TimerEvent: {}
+[11.090701] (my_cpp_package) StdoutLine: {'line': b'-- Set runtime path of "/mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/lib/my_cpp_package/cpp_node" to ""\n'}
+[11.123788] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/ament_index/resource_index/package_run_dependencies/my_cpp_package\n'}
+[11.155044] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/ament_index/resource_index/parent_prefix_path/my_cpp_package\n'}
+[11.170861] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.sh\n'}
+[11.172864] (-) TimerEvent: {}
+[11.195919] (my_cpp_package) StdoutLine: {'line': b'-- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.dsv\n'}
+[11.261223] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/environment/path.sh\n'}
+[11.273106] (-) TimerEvent: {}
+[11.284548] (my_cpp_package) StdoutLine: {'line': b'-- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/environment/path.dsv\n'}
+[11.361483] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/local_setup.bash\n'}
+[11.373238] (-) TimerEvent: {}
+[11.384897] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/local_setup.sh\n'}
+[11.403422] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/local_setup.zsh\n'}
+[11.419863] (my_cpp_package) StdoutLine: {'line': b'-- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/local_setup.dsv\n'}
+[11.473412] (-) TimerEvent: {}
+[11.487827] (my_cpp_package) StdoutLine: {'line': b'-- Installing: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/package.dsv\n'}
+[11.563751] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/ament_index/resource_index/packages/my_cpp_package\n'}
+[11.573514] (-) TimerEvent: {}
+[11.589155] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig.cmake\n'}
+[11.606873] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig-version.cmake\n'}
+[11.630234] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/Programming/ROS2/ROS2_WS/install/my_cpp_package/share/my_cpp_package/package.xml\n'}
+[11.641586] (my_cpp_package) CommandEnded: {'returncode': 0}
+[11.673722] (-) TimerEvent: {}
+[11.774485] (-) TimerEvent: {}
+[11.875593] (-) TimerEvent: {}
+[11.977299] (-) TimerEvent: {}
+[12.078470] (-) TimerEvent: {}
+[12.179180] (-) TimerEvent: {}
+[12.279966] (-) TimerEvent: {}
+[12.317592] (my_cpp_package) JobEnded: {'identifier': 'my_cpp_package', 'rc': 0}
+[12.326674] (-) EventReactorShutdown: {}
