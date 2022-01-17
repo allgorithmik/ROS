@@ -1,0 +1,19 @@
+[1.747s] Invoking command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg': PYTHONPATH=/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg --editable --build-directory /mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg/build --no-deps install_data --install-dir /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg
+[2.396s] running develop
+[2.671s] running egg_info
+[2.673s] writing my_python_pkg.egg-info/PKG-INFO
+[2.678s] writing dependency_links to my_python_pkg.egg-info/dependency_links.txt
+[2.683s] writing entry points to my_python_pkg.egg-info/entry_points.txt
+[2.686s] writing requirements to my_python_pkg.egg-info/requires.txt
+[2.689s] writing top-level names to my_python_pkg.egg-info/top_level.txt
+[2.766s] reading manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[2.832s] writing manifest file 'my_python_pkg.egg-info/SOURCES.txt'
+[2.937s] running build_ext
+[2.949s] Creating /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages/my-python-pkg.egg-link (link to .)
+[2.976s] Installing publisher script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[2.999s] Installing python_node script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[3.016s] Installing subscriber script to /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/my_python_pkg
+[3.037s] 
+[3.040s] Installed /mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg
+[3.044s] running install_data
+[3.109s] Invoked command in '/mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg' returned '0': PYTHONPATH=/mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg --editable --build-directory /mnt/d/Programming/ROS2/ROS2_WS/build/my_python_pkg/build --no-deps install_data --install-dir /mnt/d/Programming/ROS2/ROS2_WS/install/my_python_pkg
