@@ -13,12 +13,17 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(example_interfaces REQUIRED)
 
 add_executable(cpp_node src/my_first_cpp_node.cpp)
 ament_target_dependencies(cpp_node rclcpp)
 
+add_executable(publisher src/publisher.cpp)
+ament_target_dependencies(publisher rclcpp example_interfaces)
+
 install(TARGETS
 cpp_node
+publisher
 DESTINATION lib/${PROJECT_NAME}
 )
 
